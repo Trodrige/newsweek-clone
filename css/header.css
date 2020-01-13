@@ -1,0 +1,68 @@
+.top-header {
+    background-color: #f72210;
+    position: relative;
+    z-index: 2;
+}
+
+.header-date{
+    color: white;
+}
+
+.logo svg {
+    fill: white;
+}
+
+.sign-button {
+    color: #fff;
+    font-weight: 600;
+}
+
+.subscribe-button {
+    color: red;
+    font-weight: 600;
+    border-style: none;
+}
+
+.space {
+    height: 10px;
+}
+
+.space, .nav-row {
+    background: #fff;
+}
+
+.nav {
+    font-size: 18px;
+    line-height: 14px;
+    font-weight: bold;
+    font-family: "Roboto Condensed",sans-serif;
+}
+
+.us {border-left-width: 0px !important}
+.nav-item {
+    border-left-color: #d9d9d9;
+    border-left-width: 1px;
+    border-left-style: solid;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav-link {
+    display: block;
+    color: black;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.space-2 {
+    border-bottom: 3px solid #f4f5f6 ;
+}
+
+@media screen and (min-width: 992px) {
+    .top-header {
+        height: 95px;
+        padding: 20px 10px 15px;
+    }
+}
