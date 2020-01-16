@@ -1,5 +1,8 @@
 main {
-    padding-top: 15px;
+    padding: 15px;
+    width: 102.4%;
+    margin-left: -15px;
+    background-color: #fff;
 }
 
 .first-third-cols {
@@ -19,23 +22,16 @@ main {
     border: 0px solid #fff !important;
 }
 
-/* .scrollable-column {
-    position: static;
-    height: 100vh;
-    overflow: hidden;
-    overflow-y: scroll; 
-} */
-
-.category {
-    position: absolute;
+.card-image {
+    position: relative;
+    object-fit: cover;
 }
 
 .card .category {
-    display: block;
-    padding: 8px 15px 9px;
+    padding: 8px 15px 15px 8px;
     background-color: rgba(255,255,255,.9);
     position: absolute;
-    bottom: 40%;
+    bottom: 0;
     left: 0;
     z-index: 1;
 }
@@ -119,9 +115,13 @@ main {
     padding-top: 0;
     padding-right: 0;
 }
-
 .more-stories .card-title {
     font-weight: 700;
+}
+
+.more-stories .card-title,
+.more-stories .card-text {
+    padding-left: 10px;
 }
 
 .no-bottom-border {
@@ -143,12 +143,13 @@ main {
     border-radius: 0px ;
 }
 
-.opinion-card .card-body {
-    padding: 0 0 0 3px;
+.opinion-card .card-title,
+.opinion-card .card-text {
+    padding-left: 10px;
 }
 
 .opinion-card .card-title {
-    padding: 0px;
+    padding: 0 0 0 10px;
     font-size: 15px;
     font-weight: 600;
 }
@@ -194,8 +195,15 @@ main {
     font: bold 18px/18px "Roboto Condensed",sans-serif;
     text-transform: uppercase;
     margin-bottom: 10px;
-    background-color: #666;
     border: none;
+}
+
+.red-sign-button {
+    background-color: red;
+}
+
+.grey-sign-button {
+    background-color: #666;
 }
 
 .update-preferences {
@@ -263,6 +271,101 @@ main {
     color: red;
 }
 
+.nwc-1 .card {
+    background-color: #000;
+    border-radius: 0;
+    padding: 25px;
+    height: 100%;
+}
+
+.nwc-item .card-title {
+    color: #fff;
+    padding: 0;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nwc-item .card-title:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.nwc-item .card-text,
+.nwc-item .ep-time {
+    color: #666;
+}
+
+.nwc-2 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.nwc-2 .play {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.play {
+    background-color: red;
+    text-align: center;
+    width: 50px;
+    height: 40px;
+    padding-top: 7px;
+}
+
+.fa-play {
+    color: #fff;
+}
+
+.nwc-3 {
+    height: 33.33333%;
+    padding: 0 !important;
+    margin:0 !important;
+    border-radius: 0 !important;
+    background-color: #000 !important;
+    border-bottom: 1px solid #f4f5f6;
+}
+
+.nwc-3 .nwc-img-container {
+    position: relative;
+    object-fit: cover;
+    height: 100%;
+}
+
+.nwc-3 .nwc-img-container .small-play {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.small-play {
+    background-color: red;
+    text-align: center;
+    width: 40px;
+    height: 30px;
+    padding-top: 5px;
+}
+
+.nwc-3 .card-body {
+    /* padding-left: 20px !important;
+    padding-top: 5px !important;
+    padding-right: 5px !important; */
+    padding: 5px 5px 0px 20px !important;
+}
+
+.nwc-3 .card-title {
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nwc-3 .ep-time {
+    color: #666;
+}
+
+
 .editors-pick .card{
     margin-bottom: 20px;
 }
@@ -291,4 +394,17 @@ main {
     color: #e9212e;
 }
 
+.us-block-title {
+    font: bold 16px/16px "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 11px;
+    color: #f72210;
+    padding-top: 15px;
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.us-block-title a {
+    color: red;
+}
 

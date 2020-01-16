@@ -1,5 +1,5 @@
 body {
-    background-color: #fff !important;
+    background-color:#f4f5f6 !important;
     color: #333;
     font-size: 13px;
     line-height: 18px;
@@ -7,9 +7,8 @@ body {
     overflow-x: hidden;
 }
 
-.container {
-    background-color: #fff;
-    /* min-width: 92% !important; */
+.container-fluid {
+    background-color: #f4f5f6;
     max-width: 1299px !important;
 }
 

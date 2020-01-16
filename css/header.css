@@ -1,3 +1,7 @@
+header {
+    margin-bottom: 3px;
+}
+
 .top-header {
     background-color: #f72210;
     position: relative;
@@ -23,12 +27,10 @@
     border-style: none;
 }
 
-.space {
-    height: 10px;
-}
-
-.space, .nav-row {
-    background: #fff;
+.nav-row {
+    position: relative;
+    padding-top: 10px;
+    background-color: #fff;
 }
 
 .nav {
@@ -36,6 +38,7 @@
     line-height: 14px;
     font-weight: bold;
     font-family: "Roboto Condensed",sans-serif;
+    padding-bottom: 7px;
 }
 
 .us {border-left-width: 0px !important}
@@ -54,6 +57,31 @@
 
 .nav-link:hover {
     color: red;
+}
+
+.search-item {
+    border-left-color: #fff;
+}
+
+.search-link {
+    color: #f4f5f6;
+    font-weight: 200;
+    margin-left: 15px;
+}
+
+.search-link:hover {
+    color: #f4f5f6;
+    font-weight: 200;
+}
+
+.free-red-shape {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 20px solid red;
+    border-left: 25px solid transparent;
+    height: 0;
+    width: 100px;
 }
 
 .space-2 {

@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/2eec168e29.js" crossorigin="anonymous"></script>
 </head>
@@ -32,13 +34,12 @@
                     <div class="row">
                         <div class="col-md-5"></div>
                         <div class="col-md-7 sign-subscribe-buttons">
-                            <a href="#" class="sign-button">SIGN IN</a>&nbsp;
+                            <a href="#" class="sign-button red-sign-button">SIGN IN</a>&nbsp;
                             <button class="subscribe-button">SUBSCRIBE   > </button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row space"></div>
             <div class="row nav-row">
                 <nav>
                     <ul class="nav">
@@ -72,21 +73,23 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Vantage</a>
                         </li>
+                        <li class="nav-item search-item">
+                          <a class="nav-link search-link" >Search <img src="https://g.newsweek.com/www/images/icon-search-glass.svg" height="20px" width="20px" alt="searh icon"></a>
+                        </li>
                     </ul>
                 </nav>
+                <div class="free-red-shape"></div>
             </div>
-            <div class="row space space-2"></div>
-            <!-- <form class="form-inline">
-                <input class="form-control search" type="search" placeholder="Search" aria-label="Search">
-            </form> -->
         </header>
         <main>
             <div class="row">
                 <div class="col-md-3 first-third-cols">
                     <div class="block-title">FEATURED STORIES</div>
                     <div class="card">
-                        <div class="category"><a href="#">WORLD</a></div>
-                        <img src="https://d.newsweek.com/en/full/1559579/iran-protest.webp?w=397&h=265&q=90&f=6681ba7fc1c7381bb295a2d8125b6425" class="card-img-top" alt="...">
+                        <div class="card-image">
+                          <div class="category"><a href="#">WORLD</a></div>
+                          <img src="https://d.newsweek.com/en/full/1559579/iran-protest.webp?w=397&h=265&q=90&f=6681ba7fc1c7381bb295a2d8125b6425" class="card-img-top" alt="...">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Iranian Vice President Claims People's 'Hatred' of U.S. Has 'Increased'</h5>
                           <p class="card-text">"The present wave of protests has the potential of developing into a revolution," Hilal Khashan, a professor at the American University of Beirut, told Newsweek.</p>
@@ -96,36 +99,53 @@
                     <h5 class="single-title">Iranians Chant 'Our Enemy Is Right Here' During Anti-Government Protests</h5>
                     <hr>
                     <div class="card">
+                      <div class="card-image">
                         <div class="category"><a href="#">POLITICS</a></div>
                         <img src="https://d.newsweek.com/en/full/1559700/donald-trump-iran-qassem-soleimani-assassination-2017.webp?w=397&h=265&q=90&f=3fef06fd906298b66410abab30ed3d43" class="card-img-top" alt="...">
+                      </div>
                         <!-- <div class="card-body"> -->
                             <h5 class="card-title">Trump Considered Killing Soleimani Several Times Since 2017: Report</h5>
                           <p class="card-text">Qassem Soleimani was considered Iran's top military commander until he was assassinated in a U.S. drone strike in Baghdad earlier this month.</p>
                         <!-- </div> -->
                     </div><br>
                     <div class="card">
+                      <div class="card-image">
                         <div class="category"><a href="#">culture</a></div>
                         <img src="https://d.newsweek.com/en/full/1559519/oscars-2020-nominations.webp?w=397&h=265&q=90&f=957022fc2a834d4bbd0f4b61e01546cb" class="card-img-top" alt="...">
+                      </div>
                         <!-- <div class="card-body"> -->
                             <h5 class="card-title">Oscar Nominations 2020 Announced: Which Movie Will Win Best Picture?</h5>
                           <p class="card-text">This year's front-runners include "1917" and "Once Upon a Time...in Hollywood."</p>
                         <!-- </div> -->
                     </div><br>
                     <div class="card">
-                        <div class="category"><a href="#">world</a></div>
-                        <img src="https://d.newsweek.com/en/full/1559442/trump-esper.webp?w=397&h=265&q=90&f=f53b312c637b05fd5c18bfbbb505d44a" class="card-img-top" alt="...">
+                        <div class="card-image">
+                          <div class="category"><a href="#">world</a></div>
+                          <img src="https://d.newsweek.com/en/full/1559442/trump-esper.webp?w=397&h=265&q=90&f=f53b312c637b05fd5c18bfbbb505d44a" class="card-img-top" alt="...">
+                        </div>
                         <!-- <div class="card-body"> -->
                             <h5 class="card-title">Defense Secretary: Iran's Soleimani Was 'Probably' Planning Embassy Attacks</h5>
                           <p class="card-text">Mark Esper's comments came after President Donald Trump said that he believed four U.S. embassies would have been attacked if Soleimani was not killed.</p>
                         <!-- </div> -->
-                    </div>
-
+                    </div><br>
+                    <div class="card">
+                      <div class="card-image">
+                        <div class="category"><a href="#">u.s</a></div>
+                        <img src="https://d.newsweek.com/en/full/1560204/elizabeth-warren-bernie-sanders-post-debate-iowa.webp?w=397&h=265&q=90&f=6ddfa2a5dd0bd141293f4d7f48890b9a" class="card-img-top" alt="...">
+                      </div>
+                      <!-- <div class="card-body"> -->
+                          <h5 class="card-title">Sanders Will Benefit if Warren Drops Out, Pollsters Say—But Enough to Win?</h5>
+                        <p class="card-text">Supporters of the left-wing candidates were not necessarily transferable from one to the other, said one pollster.</p>
+                      <!-- </div> -->
+                  </div>
                 </div>
                 <div class="col-md-6 scrollable-column">
                     <div class="block-title">TOP STORY</div>
                     <div class="card">
-                        <div class="category"><a href="#">analysis</a></div>
-                        <img src="https://d.newsweek.com/en/full/1558608/trump-iran-deescalation.webp?w=591&h=364&f=fb2e25cde6bc0efdb26e9140bd3720b7" class="card-img-top" alt="...">
+                        <div class="card-image">
+                          <div class="category"><a href="#">analysis</a></div>
+                          <img src="https://d.newsweek.com/en/full/1558608/trump-iran-deescalation.webp?w=591&h=364&f=fb2e25cde6bc0efdb26e9140bd3720b7" class="card-img-top" alt="...">
+                        </div>
                         <!-- <div class="card-body"> -->
                             <h5 class="card-title">With a New Weapon in Trump's Hands, the Iran Crisis Risks Going Nuclear</h5>
                           <p class="card-text">Exclusive: Now that the U.S. has deployed a new nuclear weapon, the options presented to President Donald Trump to respond to Tehran will automatically include a nuclear option.</p>
@@ -220,96 +240,6 @@
                                         <div class="card-body">
                                           <h6 class="card-title">Photos of Philippines Volcano Eruption Show 'State of Calamity'</h6>
                                           <p class="card-text">Tens of thousands of people have been urged to leave their homes and officials warned more eruptions could occur.</p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <div class="card">
-                                    <div class="row no-gutters">
-                                      <div class="col-sm-4">
-                                        <img src="https://d.newsweek.com/en/full/1559589/taal-volcano-philippines-photos.webp?w=135&h=90&f=b5f6169d934b91c5c6f37d2ba14ec60f" class="card-img" alt="...">
-                                      </div>
-                                      <div class="col-sm-8">
-                                        <div class="card-body">
-                                          <h6 class="card-title">Journalist Claims to Capture U.S. Envoy's Phone Briefing on Northeast Syria</h6>
-                                          <p class="card-text">On Friday, Russia used its veto threat to force the United Nations Security Council to adopt a resolution that reduces the delivery of humanitarian aid and access to medical assistance.</p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <div class="card">
-                                    <div class="row no-gutters">
-                                      <div class="col-sm-4">
-                                        <img src="https://d.newsweek.com/en/full/1559567/jeffrey.webp?w=135&h=90&f=4bb13f7f886550b6bdec454e6cac8301" class="card-img" alt="...">
-                                      </div>
-                                      <div class="col-sm-8">
-                                        <div class="card-body">
-                                          <h6 class="card-title">GOP Congressman 'Not Afraid' of John Bolton's Testimony to Trump Trial</h6>
-                                          <p class="card-text">Texas Representative Dan Crenshaw also asked why House Democrats did not subpoena President Donald Trump's former national security adviser during the impeachment inquiry.</p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <div class="card">
-                                    <div class="row no-gutters">
-                                      <div class="col-sm-4">
-                                        <img src="https://d.newsweek.com/en/full/1559564/john-bolton-trump-impeachment-testimony-senate-witness.webp?w=135&h=90&l=71&t=72&f=c2c5a6c0956ab00a42a27b26e8eb00d2" class="card-img" alt="...">
-                                      </div>
-                                      <div class="col-sm-8">
-                                        <div class="card-body">
-                                          <h6 class="card-title">Canadian CEO Blames 'Narcissist' Trump for Plane Shot Down</h6>
-                                          <p class="card-text">Michael McCain said the 176 people killed aboard Ukraine International Airlines Flight 752 were "collateral damage" of President Donald Trump's "irresponsible" behavior.</p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <div class="card">
-                                    <div class="row no-gutters">
-                                      <div class="col-sm-4">
-                                        <img src="https://d.newsweek.com/en/full/1559516/iran-canada-plane-donald-trump-michael-mccain.webp?w=135&h=90&f=c73040fd7bd2e8320ce11d25b6cc194a" class="card-img" alt="...">
-                                      </div>
-                                      <div class="col-sm-8">
-                                        <div class="card-body">
-                                          <h6 class="card-title">Queen Elizabeth II Responds to Meghan Markle and Prince Harry Stepping Back</h6>
-                                          <p class="card-text">"Today my family had very constructive discussions on the future of my grandson and his family," Queen Elizabeth II said in a statement.</p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <div class="card">
-                                    <div class="row no-gutters">
-                                      <div class="col-sm-4">
-                                        <img src="https://d.newsweek.com/en/full/1559785/meghan-harry.webp?w=135&h=90&f=5208ac8b43a25ae29386edc084c60792" class="card-img" alt="...">
-                                      </div>
-                                      <div class="col-sm-8">
-                                        <div class="card-body">
-                                          <h6 class="card-title">Family of Ukrainian Plane Victims Says Iran's Apology 'Not Enough'</h6>
-                                          <p class="card-text">"We were all screaming and screaming," Navaz Ebrahim told CNN. "That was a tragic night, a tragic night."</p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <div class="card">
-                                    <div class="row no-gutters">
-                                      <div class="col-sm-4">
-                                        <img src="https://d.newsweek.com/en/full/1559485/mark-esper-iran-donald-trump-qassem-soleimani.webp?w=135&h=90&f=7a635775a34a28edde9b391c31c82c57" class="card-img" alt="...">
-                                      </div>
-                                      <div class="col-sm-8">
-                                        <div class="card-body">
-                                          <h6 class="card-title">'No Way' Esper Wouldn't Have Seen Seen Same Iran Intel as Trump: McFaul</h6>
-                                          <p class="card-text">Mark Esper appeared to contradict the president on Sunday, when he said he had not seen evidence that Iran was planning attacks on four American embassies.</p>
                                         </div>
                                       </div>
                                     </div>
@@ -426,6 +356,51 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-12">
+                          <div class="card opinion-card">
+                              <div class="row no-gutters">
+                                <div class="col-sm-2">
+                                  <img src="https://d.newsweek.com/en/full/1504484/serra-sippel.webp?w=63&h=63&f=7ff3da3043342e15252b9d6178864509" class="card-img" alt="...">
+                                </div>
+                                <div class="col-sm-10">
+                                  <div class="card-body">
+                                    <h6 class="card-title">At the Taiwan Election, China Has Entered the Global Meddling Game</h6>
+                                    <p class="card-text">BY ANDERS FOGH RASMUSSEN</p>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-12">
+                          <div class="card opinion-card">
+                              <div class="row no-gutters no-bottom-border">
+                                <div class="col-sm-2">
+                                  <img src="https://d.newsweek.com/en/full/1560094/anders-fogh-rasmussen.webp?w=63&h=63&f=055627aac690db95b8ae32c33991c31b" class="card-img" alt="...">
+                                </div>
+                                <div class="col-sm-10">
+                                  <div class="card-body">
+                                    <h6 class="card-title">Calling Iran a Terrorist Nation Is a Dangerous Justification</h6>
+                                    <p class="card-text">BY BEATRICE MANESHI</p>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters">
+                              <div class="col-sm-2">
+                                <img src="https://d.newsweek.com/en/full/1504484/serra-sippel.webp?w=63&h=63&f=7ff3da3043342e15252b9d6178864509" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-10">
+                                <div class="card-body">
+                                  <h6 class="card-title">At the Taiwan Election, China Has Entered the Global Meddling Game</h6>
+                                  <p class="card-text">BY ANDERS FOGH RASMUSSEN</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                     <br>
                     <div class="block-title">LATEST NEWS</div>
@@ -472,6 +447,34 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-12">
+                          <div class="card opinion-card">
+                              <div class="row no-gutters">
+                                <div class="col-sm-5">
+                                  <img src="https://d.newsweek.com/en/full/1559646/fe-nigeria-01-523787136-banner.webp?w=397&h=265&l=50&t=43&f=3836b1bcaec7060b4e2e51b336e9ab4d" class="card-img" alt="...">
+                                </div>
+                                <div class="col-sm-7">
+                                  <div class="card-body">
+                                    <h6 class="card-title">Black China: Africa's First Superpower Is Coming Sooner Than You Think</h6>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters no-bottom-border">
+                              <div class="col-sm-5">
+                                <img src="https://d.newsweek.com/en/full/1559987/rush-drummer-neil-peart.webp?w=397&h=265&f=a63d9407198fe0cf4caf0ce4fe4272a0" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-7">
+                                <div class="card-body">
+                                  <h6 class="card-title">Film Director Remembers Rush Drum Legend Neil Peart</h6>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
                         <div class="col-md-12">
                             <div class="card opinion-card">
                                 <div class="row no-gutters">
@@ -535,7 +538,8 @@
                         <div class="n-title">
                           <span class="icon-n"></span>Sign up for our Newsletter
                         </div>
-                        <button class="sign-button">SIGN UP  > </button>
+                        <br>
+                        <button class="sign-button grey-sign-button">SIGN UP  > </button>
                         <br> 
                         <a href="#" class="update-preferences">Update your preferences »</a>
                       </div>
@@ -652,8 +656,65 @@
               <div class="n-title magazine-title">
                 <span class="icon-n"></span><p>NEWSWEEK CONVERSATIONS</p>
               </div>
-              <div class="row"></div>
+              <div class="row no-gutters newsweek-converstations">
+                <div class="col-md-3 nwc-item nwc-1">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">The Vampire Diaries' Paul Wesley Talks Fame, Directing and CBS' 'Tell Me a Story'</h5>
+                      <p class="card-text">"I try my best not to drink the Kool-Aid too much, because that can be a slippery slope," Paul Wesley said about dealing with fame.</p>
+                      <p class="ep-time">20:00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5 nwc-2">
+                  <!-- <div class="card nwc-2">
+                    <div class="card-body"> -->
+                      <img src="https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20" height="100%" width="100%" alt="image">
+                      <div class="play"><i class="fas fa-play"></i></div>
+                    <!-- </div>
+                  </div> -->
+                </div>
+                <div class="col-md-4">
+                  <div class="row no-gutters nwc-3">
+                    <div class="col-sm-5 nwc-img-container">
+                      <img src="https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95" height="100%" width="100%"  class="card-img" alt="...">
+                      <div class="small-play"><i class="fas fa-play"></i></div>
+                    </div>
+                    <div class="col-sm-7">
+                      <div class="card-body">
+                        <h6 class="card-title">'American Horror Story's' Leslie Grossman</h6>
+                        <p class="ep-time">20:00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row no-gutters nwc-3">
+                    <div class="col-sm-5 nwc-img-container">
+                      <img src="https://d.newsweek.com/en/full/1555351/newsweek-conversations-willem-dafoe.jpg?w=173&h=104&f=64f6b307bd86eb7c5a0a44276471bf7f" height="100%" width="100%"  class="card-img" alt="...">
+                      <div class="small-play"><i class="fas fa-play"></i></div>
+                    </div>
+                    <div class="col-sm-7">
+                      <div class="card-body">
+                        <h6 class="card-title">Newsweek Conversations with Actor Willem Dafoe</h6>
+                        <p class="ep-time">20:49</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row no-gutters nwc-3">
+                    <div class="col-sm-5 nwc-img-container">
+                      <img src="https://d.newsweek.com/en/full/1555352/newsweek-conversations-matthew-modine.jpg?w=173&h=104&f=654768a75c92e3ead489a0ab7a1ae31f" height="100%" width="100%"  class="card-img" alt="...">
+                      <div class="small-play"><i class="fas fa-play"></i></div>
+                    </div>
+                    <div class="col-sm-7">
+                      <div class="card-body">
+                        <h6 class="card-title">‘Stranger Things’ Star Matthew Modine </h6>
+                        <p class="ep-time">17:39</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </section>
+            <br>
             <section>
               <div class="n-title magazine-title">
                 <span class="icon-n"></span><p>EDITOR'S PICK</p>
@@ -836,29 +897,513 @@
             <br>
             <hr>
             <section>
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="card">
-                    <img src="https://d.newsweek.com/en/full/1560317/michael-bloomberg.webp?w=397&h=265&f=7a16acb8c39c736c87058bad790eb6b0" alt="..." class="card-img">
-                    <div class="card-body">
-                        <h5 class="card-title">Bloomberg Says 'Stop and Frisk' Was Doing 'the Best Thing That We Can'</h5>
+              <div class="us-row">
+                <div class="us-block-title">
+                  <a href="/us">U.S.</a></div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="https://d.newsweek.com/en/full/1560317/michael-bloomberg.webp?w=397&h=265&f=7a16acb8c39c736c87058bad790eb6b0" alt="..." class="card-img">
+                      <div class="card-body">
+                          <h5 class="card-title">Bloomberg Says 'Stop and Frisk' Was Doing 'the Best Thing That We Can'</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="https://d.newsweek.com/en/full/1560277/mollie-fitzgerald.webp?w=397&h=265&f=d6632c6c4bbb50400c03329b3132835e" alt="..." class="card-img">
+                      <div class="card-body">
+                          <h5 class="card-title">'Captain America' Actress Says She Killed Her Mom In Self-Defense</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="row opinion">
+                      <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters">
+                              <div class="col-sm-4">
+                                <img src="https://d.newsweek.com/en/full/1560245/jimmy-garoppolo-kyle-shanahan-san-francisco-49ers.webp?w=397&h=265&f=175c28ac16ae24c6bdff5873665b80ac" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">How the 49ers and Chiefs Super Bowl Odds Changed During the Season</h5>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters">
+                              <div class="col-sm-4">
+                                <img src="https://d.newsweek.com/en/full/1560266/soleimani-flight.webp?w=397&h=265&f=d2ada448a3ed76ed2add65231c1d5e60" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Trump's Killing of Soleimani Will Continue To Shape the Middle East</h5>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters no-bottom-border">
+                              <div class="col-sm-4">
+                                <img src="https://d.newsweek.com/en/full/1560242/bull-shark-ocearium-le-croisic-france.webp?w=397&h=265&f=2fea79b9b39671eacf141fa362fa04b2" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Bull Shark Bites Tourist in Thailand in Rare Attack: Experts</h5>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
-                  <div class="card">
-                    <img src="https://d.newsweek.com/en/full/1560277/mollie-fitzgerald.webp?w=397&h=265&f=d6632c6c4bbb50400c03329b3132835e" alt="..." class="card-img">
-                    <div class="card-body">
-                        <h5 class="card-title">'Captain America' Actress Says She Killed Her Mom In Self-Defense</h5>
+              </div>
+              <hr>
+              <div class="world-row">
+                <div class="us-block-title">
+                  <a href="/us">World</a></div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="https://d.newsweek.com/en/full/1560309/russia-president-putin-prime-minister-medvedev.webp?w=397&h=265&f=08aa04abf14c9256298cffecb04a73b2" alt="..." class="card-img">
+                      <div class="card-body">
+                          <h5 class="card-title">Russia's PM Medvedev Resigns in Shakeup After President Putin's Speech</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="https://d.newsweek.com/en/full/1560265/new-zealand-one-hundred-dollar-bill.webp?w=397&h=265&f=7da5256d0417f8a2f7b24f6f177f6c71" alt="..." class="card-img">
+                      <div class="card-body">
+                          <h5 class="card-title">Dad Finds $3,300 in Second-Hand Drawers, Returns Cash to Owner</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="row opinion">
+                      <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters">
+                              <div class="col-sm-4">
+                                <img src="https://d.newsweek.com/en/full/1560267/dublin.webp?w=135&h=90&f=24161af1798afdc87676321ee1ea0b38" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Homeless Man Injured After City Uses 'Industrial Vehicle' To Remove Tent</h5>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters">
+                              <div class="col-sm-4">
+                                <img src="https://d.newsweek.com/en/full/1560242/bull-shark-ocearium-le-croisic-france.webp?w=135&h=90&f=7ed03b7edc312f03fb194e627cced392" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Bull Shark Bites Tourist in Thailand in Rare Attack: Experts</h5>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters no-bottom-border">
+                              <div class="col-sm-4">
+                                <img src="https://d.newsweek.com/en/full/1560226/meghan-prince-harry.webp?w=135&h=90&f=dcff326fddd65004f2e3d6bda1e04f0f" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Meghan Markle and Prince Harry's Mail on Sunday Lawsuit Explained</h5>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
-                  
+              </div>
+              <hr>
+              <div class="business-row">
+                <div class="us-block-title">
+                  <a href="/us">Business</a></div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="https://d.newsweek.com/en/full/1560309/russia-president-putin-prime-minister-medvedev.webp?w=397&h=265&f=08aa04abf14c9256298cffecb04a73b2" alt="..." class="card-img">
+                      <div class="card-body">
+                          <h5 class="card-title">Former AT&T Broadband CEO: Trump Tax Cuts 'Destroying' Farmers, Agriculture</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="https://d.newsweek.com/en/full/1558983/wirecutter-credit-card-debt.webp?w=397&h=265&f=8543e437aee13fcbc80b871ce5731119" alt="..." class="card-img">
+                      <div class="card-body">
+                          <h5 class="card-title">Got Holiday Debt? Pay Off Your Credit Cards Quickly with These 5 Tips</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="row opinion">
+                      <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters">
+                              <div class="col-sm-4">
+                                <img src="https://d.newsweek.com/en/full/1558619/markets-fall-after-news-irans-retaliation-against-us.webp?w=135&h=90&f=2d74a458df9fcaad4bb69a3e49dbbbad" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">97 Percent of CFOs Surveyed Believe Economic Slowdown or Recession Coming</h5>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters">
+                              <div class="col-sm-4">
+                                <img src="https://d.newsweek.com/en/full/1556871/workers-across-country-demonstrate-higher-minimum-wage.webp?w=135&h=90&f=447d1606e7b2efd0edbed5c777e96250" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Federal Minimum Wage Has Not Changed in a Decade; 21 States Still Use It</h5>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters no-bottom-border">
+                              <div class="col-sm-4">
+                                <img src="https://d.newsweek.com/en/full/1556147/usps-post-office-stamps-price.webp?w=135&h=90&f=f7fb9511cace3c7e81365fb57bbdb945" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Stamp Price Increases 2020: USPS Stamp, Mail Rates Going Up in January?</h5>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="business-row">
+                <div class="us-block-title">
+                  <a href="/us">tech & science</a></div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="https://d.newsweek.com/en/full/1560060/jason-momoa.webp?w=397&h=265&f=de304a02cb120b626055acd03c44c53c" alt="..." class="card-img">
+                      <div class="card-body">
+                          <h5 class="card-title">Female Disgust May Have Caused Humans to Evolve Less Hair</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="https://d.newsweek.com/en/full/1559965/cave-man.webp?w=397&h=265&f=0a4b606eae617d60b6b3768a15e5d43c" alt="..." class="card-img">
+                      <div class="card-body">
+                          <h5 class="card-title">Ancient Hominids May Have Helped Protect Humans From Malaria</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="row opinion">
+                      <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters">
+                              <div class="col-sm-4">
+                                <img src="https://d.newsweek.com/en/full/1560057/australia-fire-smoke.webp?w=135&h=90&f=1b6386ee473cadb0398ea453a2952e33" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">NASA Astronaut Captures Terrifying Images of Australia Fires and Dust Storm</h5>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters">
+                              <div class="col-sm-4">
+                                <img src="https://d.newsweek.com/en/full/1560009/akon.webp?w=135&h=90&f=4989709ef54301d6db20ef57c4565385" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Akon Says His '100 Percent Crypto-based' City Will Be Built in 10 Years</h5>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters no-bottom-border">
+                              <div class="col-sm-4">
+                                <img src="https://d.newsweek.com/en/full/1559934/stardust.webp?w=135&h=90&f=6dbe793fbe4f415135cc2a738890d63e" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">7 Billion-year-old Stardust Trapped in Meteorite Is Earth's Oldest Material</h5>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="business-row">
+                <div class="us-block-title">
+                  <a href="/us">culture</a></div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="https://d.newsweek.com/en/full/1320985/will-catfish-tonight.webp?w=397&h=265&f=e1ec00b7e91eb1b2ba20c2f2769af328" alt="..." class="card-img">
+                      <div class="card-body">
+                          <h5 class="card-title">'Catfish' Exclusive Trailer: Alfred Ends Six-Year Relationship</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="https://d.newsweek.com/en/full/1560260/superman-lois-cw.webp?w=397&h=265&l=65&t=39&f=82af9c099f136e832e5425b0e44be19c" alt="..." class="card-img">
+                      <div class="card-body">
+                          <h5 class="card-title">'Superman and Lois': How 'Crisis' Sets Up Upcoming Spin-Off</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="row opinion">
+                      <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters">
+                              <div class="col-sm-4">
+                                <img src="https://d.newsweek.com/en/full/1560229/crisis-infinite-earths-oliver-queen.webp?w=135&h=90&l=44&t=24&f=d6948582a431136fcae37879e437c88e" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">'Arrow' Season 8: Will Stephen Amell Appear in Final Episodes?</h5>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters">
+                              <div class="col-sm-4">
+                                <img src="https://d.newsweek.com/en/full/1559987/rush-drummer-neil-peart.webp?w=135&h=90&f=0ea8cb3e3e6b66a1064b22693bd4baeb" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Film Director Remembers Rush Drum Legend Neil Peart</h5>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters no-bottom-border">
+                              <div class="col-sm-4">
+                                <img src="https://d.newsweek.com/en/full/1560224/crisis-infinite-earths-ezra-miller.webp?w=135&h=90&f=3a42c710a935205d64780ff846ad4fd5" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">'Crisis on Infinite Earths': What the Ezra Miller Cameo Means for the DCEU</h5>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="business-row">
+                <div class="us-block-title">
+                  <a href="/us">sports</a></div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="https://d.newsweek.com/en/full/1560245/jimmy-garoppolo-kyle-shanahan-san-francisco-49ers.webp?w=397&h=265&f=175c28ac16ae24c6bdff5873665b80ac" alt="..." class="card-img">
+                      <div class="card-body">
+                          <h5 class="card-title">How the 49ers and Chiefs Super Bowl Odds Changed During the Season</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img src="https://d.newsweek.com/en/full/1560187/bill-cowher-nfl-hall-fame.webp?w=397&h=265&f=c75f3f004d3f43f592112223157a668c" alt="..." class="card-img">
+                      <div class="card-body">
+                          <h5 class="card-title">What to know ahead of NFL Hall of Fame's 'Centennial Class' announcement</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="row opinion">
+                      <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters">
+                              <div class="col-sm-4">
+                                <img src="https://d.newsweek.com/en/full/1560185/luke-kuechly-carolina-panthers.webp?w=135&h=90&f=aff6ce6998387b8337fb7c4037e36a02" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Luke Kuechly Retirement: NFL Twitter Pays Tribute to Former Panthers LB</h5>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters">
+                              <div class="col-sm-4">
+                                <img src="https://d.newsweek.com/en/full/1560120/heisman-trophy.webp?w=135&h=90&f=bb166909c58987fa4276a98080313274" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Betting Odds for 2020 Heisman Trophy</h5>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card opinion-card">
+                            <div class="row no-gutters no-bottom-border">
+                              <div class="col-sm-4">
+                                <img src="https://d.newsweek.com/en/full/1559958/roger-federer-australian-open.webp?w=135&h=90&f=19bc5cf7d7c8aaa832a002def8ba47fb" class="card-img" alt="...">
+                              </div>
+                              <div class="col-sm-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Serena, Federer Among Stars Taking Part in Australia Bushfires Fundraiser</h5>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </section>
         </main>
+        <aside>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="us-block-title">
+                <a href="/us">subscribe</a>
+              </div>
+              <div class="subscribe-content">
+                <div class="card opinion-card">
+                  <div class="row no-gutters no-bottom-border">
+                    <div class="col-sm-2">
+                      <img src="https://d.newsweek.com/en/full/1556038/january-03-17-2020-cover.jpg?w=170&q=95&f=5ee630dad7d5beb00d233b14fbde0b1a" class="card-img" alt="...">
+                    </div>
+                    <div class="col-sm-10">
+                      <div class="card-body">
+                        <h5 class="card-title">Serena, Federer Among Stars Taking Part in Australia Bushfires Fundraiser</h5>
+                        <p class="card-text">All Access + Weekly Delivery.<br>Choose A Membership That's Perfect for You!</p>
+                        <a href="#" class="sign-button red-sign-button">SUBSCRIBE ></a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="us-block-title">
+                <a href="/us">newsletter</a>
+              </div>
+              <div class="newsletter-content">
+                <div class="card opinion-card">
+                  <div class="row no-gutters no-bottom-border">
+                    <div class="col-sm-5 image-background"></div>
+                    <div class="col-sm-7">
+                      <div class="card-body">
+                        <h5 class="card-title">The Starting 5</h5>
+                        <p class="card-text">Take back your inbox. Sign up for our newsletter and start making sense of the world around you.</p>
+                        <a href="#" class="sign-button red-sign-button">SIGN UP ></a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+        </aside>
+        <footer>
+          <div class="row footer-first-row">
+            <div class="col-md-8">
+              <span><svg version="1.1" class="footer-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g>
+                <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+                </g></svg></span>
+                <div class="copyright">© 2020 NEWSWEEK</div>
+            </div>
+            <div class="col-md-4">
+              <ul class="social">
+                <li><i class="fab fa-linkedin fa-2x"></i></i></li>
+                <li><i class="fab fa-tumblr fa-2x"></i>  </li>
+                <li><i class="fab fa-instagram fa-2x"></i>  </li>
+                <li><i class="fab fa-twitter fa-2x"></i></li>
+                <li><i class="fab fa-facebook-square fa-2x"></i></li>
+              </ul>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="menu-1">
+                <li><strong>Editions: </strong></li>
+                <li>Pakistan  |</li>
+                <li>Polska  |</li>
+                <li>România</li>
+              </ul>
+            </div>  
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="menu-1">
+                <li>About US  |</li>
+                <li>Corrections  |</li>
+                <li>Contact Us  |</li>
+                <li>Editorial Guidelines  |</li>
+                <li>Terms & Conditions  |</li>
+                <li>Privacy Policy  |</li>
+                <li>Cookie Policy  |</li>
+                <li>Terms of Sale  |</li>
+                <li>Archive  |</li>
+                <li>Announcements |</li>
+                <li>Consent preferences</li>
+              </ul>  
+            </div>
+          </div>
+        </footer>
     </div>
 
 
